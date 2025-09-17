@@ -1,18 +1,35 @@
-body {
+ body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+ background-color:aquamarine;
   margin: 0;
   padding: 0;
-}
+  box-sizing: border-box;
+  border-style: none;
 
+ 
+ 
+
+  
+
+}
+home {
+  text-align: center;
+  padding: 20px;
+}
+About, .programs, .events, .contact {
+  padding: 20px;
+  background-color: aquamarine;
+  display : inline-block;
+  display: inline;
+}
 h1, h2, h3 {
-  color: #333;
+  color:#125;
 }
 
 nav {
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
+  background: #612d2d;
+  color: #3d0d0d;
+  padding: 10px;
 }
 
 nav ul {
